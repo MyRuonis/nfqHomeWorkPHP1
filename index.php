@@ -17,6 +17,7 @@ try{
     echo notTyped\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
     echo soft\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
     echo strict\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
+    asfafas;
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
 }
