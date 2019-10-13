@@ -1,7 +1,7 @@
 <?php
-    namespace root;
+    namespace Nfq\Akademija\Soft;
 
-    function calculateHomeWorkSum(...$numbers)
+    function calculateHomeWorkSum(int...$numbers) : int
     {
         $sum = 0;
         foreach($numbers as $number)
