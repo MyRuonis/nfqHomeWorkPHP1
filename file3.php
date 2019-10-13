@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=0);
     namespace Nfq\Akademija\Soft;
 
     function calculateHomeWorkSum(int...$numbers) : int
