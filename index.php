@@ -11,10 +11,9 @@ use Nfq\Akademija\NotTyped as notTyped;
 use Nfq\Akademija\Soft as soft;
 use Nfq\Akademija\Strict as strict;
 
-
-echo root\calculateHomeWorkSum(1) . "<br>";
-echo notTyped\calculateHomeWorkSum(1) . "<br>";
-echo soft\calculateHomeWorkSum(1) . "<br>";
-echo strict\calculateHomeWorkSum(1) . "<br>";
+echo root\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
+echo notTyped\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
+echo soft\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
+echo strict\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
 
 ?>
