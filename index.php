@@ -19,6 +19,8 @@ try{
     echo "Nfq\Akademija\Strict: " . strict\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
+} catch (Throwable $e) {
+    echo 'Caught throwable: ',  $e->getMessage(), "\n";
 }
 
 ?>
