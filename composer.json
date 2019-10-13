@@ -1,0 +1,12 @@
+{
+    "name": "nfq/php1",
+    "require": {
+        "php": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "MyRuonis",
+            "email": "kciulcinskas@gmail.com"
+        }
+    ]
+}
