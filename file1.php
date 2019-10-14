@@ -1,5 +1,5 @@
 <?php
-    namespace root;
+namespace {
 
     function calculateHomeWorkSum(...$numbers)
     {
@@ -10,4 +10,6 @@
         }
         return $sum;
     }
+
+}
 ?>

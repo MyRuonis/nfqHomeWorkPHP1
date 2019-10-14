@@ -7,13 +7,13 @@ include 'file2.php';
 include 'file3.php';
 include 'file4.php';
 
-use root as root;
+//use root as root;
 use Nfq\Akademija\NotTyped as notTyped;
 use Nfq\Akademija\Soft as soft;
 use Nfq\Akademija\Strict as strict;
 
 try{
-    echo "root: " . root\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
+    echo "root: " . calculateHomeWorkSum(3, 2.2, '1') . "<br>";
     echo "Nfq\Akademija\NotType: " . notTyped\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
     echo "Nfq\Akademija\Soft: " . soft\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
     echo "Nfq\Akademija\Strict: " . strict\calculateHomeWorkSum(3, 2.2, '1') . "<br>";
