@@ -6,6 +6,13 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit66cae250dd104909b8423235e82dabb2
 {
+    public static $files = array (
+        'a2e6d5ad035157e01bafe68c5695300c' => __DIR__ . '/../..' . '/file1.php',
+        '1dd161b5bdd319906b883e4dd7a9e08f' => __DIR__ . '/../..' . '/NFQ/Akademija/NotTyped.php',
+        '08829f7758525f398d54f46c8e214021' => __DIR__ . '/../..' . '/NFQ/Akademija/Soft.php',
+        '7322ca0db5658e8c503ca8ca5119c45b' => __DIR__ . '/../..' . '/NFQ/Akademija/Strict.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {

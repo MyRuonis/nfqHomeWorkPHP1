@@ -8,5 +8,13 @@
             "name": "MyRuonis",
             "email": "kciulcinskas@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "files" : [
+            "file1.php",
+            "NFQ/Akademija/NotTyped.php",
+            "NFQ/Akademija/Soft.php",
+            "NFQ/Akademija/Strict.php"
+        ]
+    }
 }
