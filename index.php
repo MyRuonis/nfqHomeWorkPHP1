@@ -2,10 +2,10 @@
 
 require 'vendor/autoload.php';
 
-include 'file1.php';
-include 'file2.php';
-include 'file3.php';
-include 'file4.php';
+//include 'file1.php';
+//include 'file2.php';
+//include 'file3.php';
+//include 'file4.php';
 
 //use root as root;
 use Nfq\Akademija\NotTyped as notTyped;
